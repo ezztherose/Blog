@@ -10,13 +10,20 @@ authorEmail = "ezztherose@gmail.com" # Author email
 
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
-enableSocial = true # Adds OpenGraph and Twitter cards
+enableSocial = false # Adds OpenGraph and Twitter cards
 homeTitle = "" # Title for home page
-poweredby = true # Adds powered by hugo and kiss below Copyright
+poweredby = false # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 
 [params.social]
-twitter = "EzzTheRose"
+twitter = ""
 github = "EzzTheRose"
 email = "ezztherose@gmail.com"
-rss = "index.xml"
+linkedin = ""
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" 
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
