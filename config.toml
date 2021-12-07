@@ -1,4 +1,4 @@
 baseURL = 'http://ezztherose.github.io/Blog/'
 languageCode = 'en-us'
 title = 'Just random info'
-theme= "tale-hugo"
+theme= "kiss"
