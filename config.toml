@@ -8,9 +8,6 @@ includeContent = true # Includes whole content in rss
 authorName = "Ezz" # Author full name
 authorEmail = "ezztherose@gmail.com" # Author email
 
-[params.assets]
-customCSS = ["css/custom.css"]
-
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
