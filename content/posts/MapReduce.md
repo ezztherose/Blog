@@ -47,12 +47,6 @@ the MW. The MW changes there sate from *in-process* to *complete*, the master no
 completion and give the path where the MW has stored their data to the Reduce-workers (RW). The RW then output R files.
 
 ![img of the workflow](/static/imgs/mapreduce/workflow.png)
-
-{{ $asset := resources.Get "/workflow.png" }}
-{{ $img := $asset.Fit "600x400" }}
-<figure class="image is-3by2">
-  <img alt="workflow" src="{{ $img.RelPermalink }}" />
-</figure>
 > Figure 1. An overview of a cluster with a MapReduce design.
 
 Figure 1 is a simplified view of the structural design of how *MapReduce* work. It starts with an input file at the left. The data file is then traveling through the MW's, continuing towards the RW's which finally produces the output files as mentioned earlier. The master node does ping all the nodes to keep the up-time and computations under control.
