@@ -11,7 +11,7 @@ plete before the calculation of the data can begin. This paper provides
 a solution to run computations on a large data set with the complicated
 aspect. MapReduce is a set of functions Map and Reduce, this set of
 functions provide abstraction to automate memory management and par-
-allelization across large designed clusters, with built in failure handling
+allelization across large designed clusters, with built in failure handling.
 
 ## 1. Introduction
 The new era of computing large scale data sets were a huge undertaking and unorganized. The collection of raw 
@@ -33,7 +33,7 @@ experienced developers to adapt.
 *MapReduce* is a set of functions that contains: *Map* & *Reduce*. The *Map* function takes an *input* in the 
 form as an input/value pair. The goal is to associate values that have the same key I. The *Reduce* produce an *output*
  of key/value pairs. The *Reduce* function accepts the key I and its associated values. Afterwards, *Reduce* merge 
- the values to possible reduce the data into a smaller data set \cite{Dean}
+ the values to possible reduce the data into a smaller data set.
 
 To make any sort of computations on a large data set there are a few structural p
 arts of the cluster that needs to be considered. The structural parts for *MapReduce*
@@ -46,7 +46,7 @@ apply a computation defined by the user, see Figure 1. The result from these com
 the MW. The MW changes there sate from *in-process* to *complete*, the master node gets notified by the 
 completion and give the path where the MW has stored their data to the Reduce-workers (RW). The RW then output R files.
 
-![img of the workflow](imgs/mapreduce/workflow.png)
+![img of the workflow](/static/imgs/mapreduce/workflow.png)
 > Figure 1. An overview of a cluster with a MapReduce design.
 
 Figure 1 is a simplified view of the structural design of how *MapReduce* work. It starts with an input file at the left. The data file is then traveling through the MW's, continuing towards the RW's which finally produces the output files as mentioned earlier. The master node does ping all the nodes to keep the up-time and computations under control.
