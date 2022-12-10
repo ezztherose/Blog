@@ -1,7 +1,6 @@
 ---
 title: "MapReduce"
 date: 2022-12-10T02:49:02+01:00
-draft: true
 ---
 # A summary of MapReduce: Simplified data processing on large clusters
 
