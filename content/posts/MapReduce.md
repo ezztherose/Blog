@@ -61,7 +61,7 @@ However, to assure the optimal workflow for the nodes, there is a condition that
 
 The different states mentioned above, are important for the fault tolerance of the cluster. The master node is configured to ping the workers during the computations. However, if a node do not respond in set time frame, the master node does fail the worker node and assign the task to another free node. The failed nodes is then put into an *idle* state to get new task assigned. When the node have achieved a *complete* state, the content of the local disk is moved to a global storage system. This structure design of the cluster makes it resilient towards failures amongst the worker nodes.  
 
-## 3. Experience
+## 3. Experiment
 Two experiments were conducted in the paper. The first one was a sort and the second is a searches. However, since the paper is from 2008, the technology used are low performing for today's standard.
 
 The internal network were designed as a tree with two levels. The total theoretical speed the network including the aggregated bandwidth were approximate 100-200 Gb/s. Each of the nodes were configured with an 1Gb/s network port. All the testing were conducted within the same building.
