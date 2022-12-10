@@ -48,7 +48,7 @@ completion and give the path where the MW has stored their data to the Reduce-wo
 
 ![img of the workflow](/static/imgs/mapreduce/workflow.png)
 
-{{ $asset := resources.Get "/workflow.png" }}
+{{ $asset := images "/workflow.png" }}
 {{ $img := $asset.Fit "600x400" }}
 <figure class="image is-3by2">
   <img alt="Workflow" src="{{ $img.RelPermalink }}" />
