@@ -92,19 +92,19 @@ A full reference list is provided at the end of the quiz for further reading...
 ## References
 - Beaulieu, A., & Leonelli, S. (2021). Data and society. A critical introduction. Sage. Available as a preprint at https://ore.exeter.ac.uk/repository/bitstream/handle/10871/127993/Data%20and%20Society_Pre print.pdf?sequence=2 (selected chapters).
 
-- Bowker, G.C., & Star, S.L. (2000). Sorting things out: Classification and its consequences. Cambridge, MA: MIT Press (Chapter 6 "The Case of Race Classification and Reclassification Under Apartheid, pp. 195-225). [Available online in the Course Reading Collection].
+- Bowker, G.C., & Star, S.L. (2000). Sorting things out: Classification and its consequences. Cambridge, MA: MIT Press (Chapter 6 "The Case of Race Classification and Reclassification Under Apartheid, pp. 195-225).
 
 - Brown, S. (2021). Machine learning, explained. MIT Management Sloan School. https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained
 
 - Couldry, N., & Yu, J. (2018). Deconstructing datafication’s brave new world. New Media & Society, 20(12), 4473–91. https://doi.org/10.1177/1461444818775968.
 
-- Cui, W. (2019). Visual analytics: a comprehensive review. IEEE Access, 1-19. [Available online in the Course Reading Collection].
+- Cui, W. (2019). Visual analytics: a comprehensive review. IEEE Access, 1-19.
 
-- D’Ignazio. C., & Klein, L.F. (2020). Data feminism (Chapter 3 “What gets counted counts). Cambridge, MA: MIT Press. [Available online in the Course Reading Collection].
+- D’Ignazio. C., & Klein, L.F. (2020). Data feminism (Chapter 3 “What gets counted counts). Cambridge, MA: MIT Press.
 
 - Dourish, P., & Gómez Cruz, E. (2018). Datafication and data fiction: narrating data and narrating with data. Big Data & Society, 5(2), 1-10. https://doi.org/10.1177/2053951718784083.
 
-- Hasselbalch, G. (2022). Data pollution & power – white paper for a global sustainable agenda on AI (pp.18-35). The Sustainable AI Lab, Bonn University [Available online in the Course Reading Collection].
+- Hasselbalch, G. (2022). Data pollution & power – white paper for a global sustainable agenda on AI (pp.18-35). The Sustainable AI Lab, Bonn University.
 
 - Micheli, M., Ponti, M., Craglia, M. and Berti Suman, A. (2020). Emerging models of data governance in the age of datafication. Big Data and Society, 7(2), 1-15. https://doi.org/10.1177/2053951720948087
 
@@ -112,4 +112,4 @@ A full reference list is provided at the end of the quiz for further reading...
 
 - Venturini, T., & Munk, A.C. (2022). Controversy mapping: A field guide. Cambridge, UK; Polity (selected chapters). Available at the Göteborgs universitetsbibliotek Samhällsvetenskapliga biblioteket
 
-- Winner, L. (1999). Do artifacts have politics? Daedalus, 109(1), 121-136 (Winter 1980). [Available online in the Course Reading Collection].
+- Winner, L. (1999). Do artifacts have politics? Daedalus, 109(1), 121-136 (Winter 1980).
