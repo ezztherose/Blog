@@ -1,6 +1,6 @@
 baseURL = 'https://ezztherose.github.io/blog/'
 languageCode = 'en-us'
-title = 'Interesting things'
+title = 'Systemic'
 theme= "kiss"
 
 [params.rss] # Adding this tag enables RSS feed
