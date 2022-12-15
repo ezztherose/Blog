@@ -90,7 +90,7 @@ A full reference list is provided at the end of the quiz for further reading...
 - [ ] The increasingly distributed role of individuals, the community and governments. when it comes to questions and concerns about digital data use.
 
 ## References
-- Beaulieu, A., & Leonelli, S. (2021). Data and society. A critical introduction. Sage. Available as a preprint at https://ore.exeter.ac.uk/repository/bitstream/handle/10871/127993/Data%20and%20Society_Pre print.pdf?sequence=2 (selected chapters). [Available online in the Course Reading Collection].
+- Beaulieu, A., & Leonelli, S. (2021). Data and society. A critical introduction. Sage. Available as a preprint at https://ore.exeter.ac.uk/repository/bitstream/handle/10871/127993/Data%20and%20Society_Pre print.pdf?sequence=2 (selected chapters).
 
 - Bowker, G.C., & Star, S.L. (2000). Sorting things out: Classification and its consequences. Cambridge, MA: MIT Press (Chapter 6 "The Case of Race Classification and Reclassification Under Apartheid, pp. 195-225). [Available online in the Course Reading Collection].
 
