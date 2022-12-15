@@ -1,7 +1,6 @@
 ---
 title: "Data and Society: quiz"
 date: 2022-12-16T00:16:31+01:00
-draft: False
 ---
 
 # Data & Society: Quiz 
