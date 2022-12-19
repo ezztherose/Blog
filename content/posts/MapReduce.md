@@ -48,7 +48,12 @@ completion and give the path where the MW has stored their data to the Reduce-wo
 
 ![](/images/MapReduce/workflow.png)
 
-<img src="{{<baseurl>}}/images/MapReduce/workflow.png">
+
+
+<figure>
+        <img src="/images/MapReduce/workflow.png" />
+</figure>
+
 > Figure 1. An overview of a cluster with a MapReduce design.
 
 Figure 1 is a simplified view of the structural design of how *MapReduce* work. It starts with an input file at the left. The data file is then traveling through the MW's, continuing towards the RW's which finally produces the output files as mentioned earlier. The master node does ping all the nodes to keep the up-time and computations under control.
