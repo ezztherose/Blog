@@ -84,7 +84,7 @@ A full reference list is provided at the end of the quiz for further reading...
 - [ ] Using a platform as a base to build or use software or another platform on top of it
 - [x] The omnipresence always changing platforms in most spheres of social life and the re-organization of social life according to platform logics.
 
-**Question 12:** *What characterizes the digitalization of the 21th century, according to the 'digital trinity'?*
+**Question 13:** *What characterizes the digitalization of the 21th century, according to the 'digital trinity'?*
 - [ ] A stronger stance taken by national, supra-national and global actors to adress Artificial Intelligence   
 - [x] A spiral of interconnected platformization, datafication and algorithmization 
 - [ ] The increasingly distributed role of individuals, the community and governments. when it comes to questions and concerns about digital data use.
