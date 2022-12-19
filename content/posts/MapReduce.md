@@ -47,7 +47,7 @@ the MW. The MW changes there sate from *in-process* to *complete*, the master no
 completion and give the path where the MW has stored their data to the Reduce-workers (RW). The RW then output R files.
 
 {{ $flow := resources.Get "images/workflow.png" }}
-<img src="{{ $flow.RelPermalink }}>
+<img src="{{ $flow.RelPermalink }} />
 
 > Figure 1. An overview of a cluster with a MapReduce design.
 
