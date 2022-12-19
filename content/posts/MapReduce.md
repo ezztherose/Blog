@@ -48,8 +48,6 @@ completion and give the path where the MW has stored their data to the Reduce-wo
 
 ![](/posts/images/MapReduce/workflow.png)
 
-> Figure 1. An overview of a cluster with a MapReduce design.
-
 Figure 1 is a simplified view of the structural design of how *MapReduce* work. It starts with an input file at the left. The data file is then traveling through the MW's, continuing towards the RW's which finally produces the output files as mentioned earlier. The master node does ping all the nodes to keep the up-time and computations under control.
 
 However, to assure the optimal workflow for the nodes, there is a condition that must be met. Since *Map* is divided into into *M* chunks, and the *Reduce* into *R* chunks. *M* and *R* should preferably be substantial larger than the amount of nodes in the cluster.
