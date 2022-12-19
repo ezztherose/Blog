@@ -46,9 +46,9 @@ apply a computation defined by the user, see Figure 1. The result from these com
 the MW. The MW changes there sate from *in-process* to *complete*, the master node gets notified by the 
 completion and give the path where the MW has stored their data to the Reduce-workers (RW). The RW then output R files.
 
-![](/images/MapReduce/workflow.png)
+![](/content/imgs/MapReduce/workflow.png)
 
-
+{{< imgs src="/content/imgs/MapReduce/workflow.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
 <figure>
         <img src="/../imgs/MapReduce/workflow.png"/>
