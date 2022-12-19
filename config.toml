@@ -1,7 +1,7 @@
 baseURL = 'https://ezztherose.github.io/blog/'
 languageCode = 'en-us'
 title = 'Systemic'
-theme= "kiss"
+theme= "hugo-tanka"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
