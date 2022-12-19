@@ -51,7 +51,7 @@ completion and give the path where the MW has stored their data to the Reduce-wo
 
 
 <figure>
-        <img src="/images/MapReduce/workflow.png" />
+        <img src="/../imgs/MapReduce/workflow.png"/>
 </figure>
 
 > Figure 1. An overview of a cluster with a MapReduce design.
