@@ -1,7 +1,6 @@
 ---
 title: "Proposal ideas"
 date: 2023-02-03T11:38:15+01:00
-draft: false
 ---
 # Ideas for proposals
 
