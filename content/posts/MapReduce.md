@@ -46,7 +46,7 @@ apply a computation defined by the user, see Figure 1. The result from these com
 the MW. The MW changes there sate from *in-process* to *complete*, the master node gets notified by the 
 completion and give the path where the MW has stored their data to the Reduce-workers (RW). The RW then output R files.
 
-![](/posts/images/MapReduce/workflow.png)
+![](https://github.com/ezztherose/blog/blob/1b6af6cd1bd9a1a07dce36ea5f5457a2939cbf81/content/imgs/MapReduce/workflow.png "Workflow")
 
 [Figure 1](https://github.com/ezztherose/blog/blob/main/static/posts/images/MapReduce/workflow.png)is a simplified view of the structural design of how *MapReduce* work. It starts with an input file at the left. The data file is then traveling through the MW's, continuing towards the RW's which finally produces the output files as mentioned earlier. The master node does ping all the nodes to keep the up-time and computations under control.
 
