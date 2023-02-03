@@ -78,3 +78,47 @@ In this study, we aim to thoroughly evaluate the predictive capability of our ma
 ---
 
 # Proposal 2
+## Introduction
+Turing Virtual Machines (TVM) does provide optimizations at multiple differ- ent levels. When importing a model, the first action taken at the first level is optimization within the graph. By applying the optimization, the graph obtains fusion, layer transformation and memory management. Furthermore, later ap- plied optimizations are applied on the tensor layer. A TVM does have many layers. The layer where the users interacts are called the user interface (UI) layer. This UI is constructed in python, and does have support data from mul- tiple frameworks, i.e. TensorFlow and PyTorch. This models are then converted into compatible TVM graphs. During the optimization of computations layer, the graph has been put through multiple optimizations, i.e. pre-computation, which makes the nodes within the graph to run ad compilation time. This new layout may add the necessary layout might add conversion operations for the layers within the graph. Afterwards a fusion performed to connects the oper- ators to a one kernel, however no intermediates are stored. A new cost based model preform automated optimizations for the low level program towards the hardware properties for a fast optimization of the code. The layer next in line preform optimizations for the specific hardware, and run space scheduling. The next step of optimizations is applied on the tensor layer. Tensors is an expression language, which are constructed to generate code automatically. At this stage of the TVM the graph is tensorized, which is an important stage for accelerators. It does also provide memory-scope and memory management. TVM supports a wast amount of optimizations for hardware, hence been imple- mented on embedded CPUs, GPUs, FPGAs to mention a few. This hardware produce a state-of-the art result for the specific hardware optimizations.
+
+Current profiles of Convolutions Neural Networks (CNN) have been executed with the TVM compiler with successful results. These CNNs has been run- ning on hardware called Field-Programmable Gate Array (FPGA). FPGAs have much lower power consumption and have a higher performance for the consumed power. The reason is because a FPGA is hardware that is reconfigurable, i.e. the connections within the the FPGA can be programmed for a users desire.
+
+There is a new extension of Neural Networks that have been introduced. It is Graph Neural Network (GNN). GNNs is constructed with nodes and edges. There are two different structures of graphs: structural and non-structural. The structural has is used for explicit applications i.e. knowlege graphs. Non- structural is the opposite to structural, implicit. The graph is first constructed before a taske is executed, i.e. connecting word for a text. A GNN do in- herit the properties as a normal graph has: Directed/Undirected, Homoge- neous/Heterogeneous, Dynamic/Static. The GNN has the same properties as graphs from graph theory.
+
+## Problem
+The problem this study is designed to solve is constructed as following:
+- Profile the Graph Neural Network for the TVM compiler.
+
+## Context
+Executing CNNs on FPGAs has been don with great success, both with speed and power consumption. CNNs have been applied to solve a wast range of complex tasks, i.e. image classification and object detection. However, they are not the best for modeling the real-world networks and behaviors that are complex like the GNN. This results in that GNNs are flexible, since they are flexible they can be applied i a wide area, i.e. online optimization. The biggest advantage of the pros of the GNN are there capability of generalization when applied.
+
+There is publications regarding running CNN with the TVM compiler. However, to my knowledge there has not been any publication regarding profiling Graph Neural Network with the TVM compiler. However, GNNs has been used to model performance of a Deep Neural network (DNN). A machine learning model were implemented with a Halide and TVM to search for deep learning algorithm which has a valid implementation.
+
+## Goals and Challenges
+Goal of this thesis is to create a profile of the Graph Neural Network (GNN) running on the TVM compiler. The code base of the profile will be stored within an open-source repository, free for anyone to use. The main programming language will be Python, however, there is a possibility that C++ might get used as well.
+
+There is several challenges with this study, both within the theoretical and practical aspect. There is a need for conducting research related towards GNN. The practical part contains the actual part of profiling the GNN-model. Working with large machine-learning frameworks and locate where the code base for the GNN is also a challenge. Another challenge is that there are no available FPGA to test the code base on.
+
+## Approach
+### Methodology
+I will represent a profile code base of the GNN for the TVM compiler. This code base will be represented in Python for ease of use. The profile will also be tested on a raspberry pie for as a demonstration.
+
+### Evaluation
+To evaluate the profile, the profile must be executed with the different factors. To test the performance, and compare a GNN on a normal platform, i.e. laptop. It will also be tested on a raspberry pie, hopefully another FPGA as well for comparison. The test will contain the same data set, otherwise is it impossible to get a base-line. The interesting parts are: the memory, computations per minute, accuracy and perhaps power usage to calculate the effectiveness.
+
+## References
+- [1] Tianqi Chen, Thierry Moreau, Ziheng Jiang, Lianmin Zheng, Eddie Yan, Haichen Shen, Meghan Cowan, Leyuan Wang, Yuwei Hu, Luis Ceze, Car- los Guestrin, and Arvind Krishnamurthy. TVM End-to-End Optimizing: An automated End-to-End optimizing compiler for deep learning. In 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18), pages 578–594, Carlsbad, CA, October 2018. USENIX Asso- ciation.
+
+- [2] Seung–Hun Chung and Tarek S. Abdelrahman. Optimization of compiler- generated opencl cnn kernels and runtime for fpgas. In 2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), pages 100–103, 2022.
+
+- [3] Eriko Nurvitadhi, Jaewoong Sim, David Sheffield, Asit K. Mishra, Krish- nan Srivatsan, and Debbie Marr. Accelerating recurrent neural networks in analytics servers: Comparison of fpga, cpu, gpu, and asic. 2016 26th Inter- national Conference on Field Programmable Logic and Applications (FPL), pages 1–4, 2016.
+
+- [4] Franco Scarselli, Marco Gori, Ah Chung Tsoi, Markus Hagenbuchner, and Gabriele Monfardini. The graph neural network model. IEEE Transactions on Neural Networks, 20(1):61–80, 2009.
+
+- [5] Shikhar Singh, Benoit Steiner, James Hegarty, and Hugh Leather. Using graph neural networks to model the performance of deep neural networks. arXiv preprint arXiv:2108.12489, 2021.
+
+- [6] Jose Suarez-Varela, Paul Almasan, Miquel Ferriol-Galmes, Krzysztof Rusek, Fabien Geyer, Xiangle Cheng, Xiang Shi, Shihan Xiao, Franco Scarselli, Al- bert Cabellos-Aparicio, and Pere Barlet-Ros. Graph neural networks for communication networks: Context, use cases and opportunities. IEEE Net- work, pages 1–8, 2022.
+
+- [7] Wei Sun, Savvas Sioutas, Sander Stuijk, Andrew Nelson, and Henk Corpo- raal. Efficient tensor cores support in tvm for low-latency deep learning. In 2021 Design, Automation Test in Europe Conference Exhibition (DATE), pages 120–123, 2021.
+
+- [8] Jie Zhou, Ganqu Cui, Shengding Hu, Zhengyan Zhang, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li, and Maosong Sun. Graph neural networks: A review of methods and applications. AI Open, 1:57–81, 2020.
